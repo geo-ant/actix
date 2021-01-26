@@ -29,6 +29,9 @@ resolver = ["trust-dns-proto", "trust-dns-resolver"]
 # Re-exports derive macros from actix-derive
 derive = ["actix_derive"]
 
+# Remove the mocker from the crate
+without_mocker = []
+
 # Adds assertion to prevent processing too many messages on event loop
 mailbox_assert = []
 
