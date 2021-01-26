@@ -1,5 +1,6 @@
 //! Helper actors
 
+#[cfg(not(feature = "without_mocker"))]
 pub mod mocker;
 
 #[cfg(feature = "resolver")]
